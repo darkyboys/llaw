@@ -1,0 +1,2 @@
+mkdir llama.cpp
+git clone https://github.com/darkyboys/ggml-s-llama.cpp-precompiles llama.cpp

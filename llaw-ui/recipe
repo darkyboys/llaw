@@ -1,0 +1,9 @@
+# Copyright (c) ghgltggamer 2025
+# Compile this with the Cook Build system by darkyboys
+
+@show_logs true
+
+src/llaw-ui.cc: 
+    out = "llaw-ui"
+    system = "cook llaw-ui/run"
+    include = "include"

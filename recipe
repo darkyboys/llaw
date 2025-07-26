@@ -1,0 +1,16 @@
+# Copyright (c) ghgltggamer 2025
+# Compile this with the Cook Build system by darkyboys
+
+@show_logs true # Allow the logging
+# @system clear # System call for clear command
+
+global: # Define the global config
+    pkg_in = [
+                "gtk+-3.0",
+                "webkit2gtk-4.0"
+             ]
+    include = "include"
+
+src/llaw.cc: 
+    out = "llaw" # Make the main source file
+    system = "cp llama.cpp/* bin"

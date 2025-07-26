@@ -1,0 +1,2 @@
+chmod +x exec/run.sh
+exec/run.sh

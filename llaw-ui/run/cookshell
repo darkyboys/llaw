@@ -1,0 +1,6 @@
+cook.allow.logging
+echo "Making the ui..."
+bin/llaw-ui
+rm -rf bin
+echo "Made the Ui!"
+echo ""

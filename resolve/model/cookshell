@@ -1,0 +1,3 @@
+mkdir model 2>/dev/null
+wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q5_0.gguf
+mv llama-2-7b-chat.Q5_0.gguf model/model.gguf

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open Linux Local Ai Wrapper Around LLama.cpp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">💬 LLAW</div>
+    <div id="chat-window" class="chat-window"></div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type your message..." />
+      <button id="send-button">➤</button>
+    </div>
+  </div>
+
+  <!-- ⚙️ Settings button -->
+  <button id="open-settings" class="settings-btn">⚙️</button>
+
+  <!-- 🔧 Settings Popup -->
+  <div id="settings-popup" class="popup-overlay hidden">
+    <div class="popup">
+      <h2>🧠 LLAW Settings</h2>
+      <div class="popup-fields">
+        <input type="text" id="model_path" placeholder="Model Path: ../model/model.gguf" />
+        <input type="text" id="user_name" placeholder="Your Name: Annonymous" />
+        <input type="text" id="user_bio" placeholder="Your Bio: Annonymous" />
+        <input type="text" id="user_gender" placeholder="Your Gender: Annonymous" />
+        <input type="text" id="user_origin" placeholder="Your Origin: Annonymous" />
+        <input type="text" id="user_hobies" placeholder="Your Hobies: Annonymous" />
+        <input type="text" id="ai_type" placeholder="Ai Type: Casual" />
+        <input type="text" id="ai_gender" placeholder="Ai Gender: Female" />
+        <input type="text" id="ai_name" placeholder="Ai Name: Open Linux Local Ai" />
+        <input type="text" id="ai_author" placeholder="Ai Author: Author is unknown because it depends on the model" />
+        <textarea id="llaw_prompts" placeholder="you are running on Open Linux Local Ai Wrapper Around Llama.cpp (LLAW) ..."></textarea>
+      </div>
+      <button id="save-settings" class="save-btn">💾 Save</button>
+    </div>
+  </div>
+
+  <script src="marked.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
